@@ -1,0 +1,186 @@
+body {
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    font-family: Spartan;
+}
+
+section {
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    margin: 5%;
+    box-shadow: 2px 5px 20px 10px rgba(0, 0, 0, 6%);
+}
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 47px;
+    font-weight: 700;
+}
+h2 {
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: -4%;
+}
+h3 {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+    font-size: 12px;
+}
+.general {
+    padding: 5%;
+}
+/*10,000 */
+.introduction {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: -5%;
+}
+.title {
+    padding: 1%;
+    width: 50%;
+    margin: 1%;
+}
+
+/* Rate */
+.rate {
+    width: 50%;
+    margin-top: 4%;
+}
+.rateMobile {
+    display: none;
+}
+.stars {
+    background-color: hsl(300, 24%, 96%);
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin: 4%;
+    padding: 2% 2% 2% 6%;
+    width: 55%;
+    border-radius: 5px;
+}
+    #one {
+        margin-left: 0%;
+    }
+    #two {
+        margin-left: 15%;
+    }
+    #three {
+        margin-left: 30%;
+    }
+
+/*Comentarios */
+.comments {
+    display: inline-flex;
+    align-items: flex-start;
+}
+.comment {
+    margin: 2%;
+    background-color: hsl(300, 43%, 22%);
+    border: 2px;
+    border-radius: 12px;
+    padding: 3%;
+    color: hsl(300, 24%, 96%);
+}
+    #four {
+        margin-top: 0%;
+    }
+    #five {
+        margin-top: 2%;
+    }
+    #six {
+        margin-top: 4%;
+    }
+    .left img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        float: left;
+        margin-right: 5%;
+    }
+    .right {
+        float: initial;
+        margin-top: -3%;
+    }
+    .comment span {
+        position: inherit;
+        display: inline-flex;
+        margin-top: 5%;
+    }
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 34px;
+    }
+    .general {
+        text-align: center;
+    }
+    .title {
+        padding: 1%;
+        margin: 1%;
+        width: auto;
+    }
+    .rate {
+        display: none;
+    }
+    .rateMobile {
+        width: auto;
+        margin-top: 4%;   
+        display: block; 
+    }
+    .stars {
+        background-color: hsl(300, 24%, 96%);
+        color:hsl(300, 43%, 22%);
+        font-weight: 700;
+        margin: 4%;
+        padding: 2% 2% 2% 6%;
+        width: auto;
+        border-radius: 5px;
+    }
+        #one {
+            margin-left: 0%;
+        }
+        #two {
+            margin-left: 15%;
+        }
+        #three {
+            margin-left: 30%;
+        }
+        #one {
+            margin-left: 0%;
+        }
+        #two {
+            margin-left: 0%;
+        }
+        #three {
+            margin-left: 0%;
+        }
+    .introduction {
+        display: inline-block;
+    }
+    .comments {
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .comment {
+        padding: 11%;
+        font-weight: 400;
+    }
+        .left img {
+            margin-right: 0%;
+        }
+        .comment span {
+            font-size: 12px;
+            text-align: left;
+        }
+  }
